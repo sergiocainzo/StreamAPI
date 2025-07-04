@@ -17,11 +17,11 @@ public class ConsumerExample {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
 
         // Usar o Consumer com expressões Lambda para imprimir números pares.
-        Consumer<Integer> imprimirNumeroPar = numero -> {
-            if (numero % 2 == 0) {
-                System.out.println(numero);
-            }
-        };
+        // Consumer<Integer> imprimirNumeroPar = numero -> {
+        //     if (numero % 2 == 0) {
+        //         System.out.println(numero);
+        //     }
+        // };
 
         // Usar o Consumer para imprimir numeros pares no Stream
         numeros.stream()
