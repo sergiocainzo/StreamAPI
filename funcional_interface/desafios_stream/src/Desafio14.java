@@ -7,7 +7,7 @@ public class Desafio14 {
 
     /**
      * Desafio 14 - Encontre o maior numero primo da lista
-     * Com a Stream API, encontre o maior numero primo da lista e exiba o resultaado
+     * Com a Stream API, encontre o maior numero primo da lista e exiba o resultado
      * no console
      */
 
